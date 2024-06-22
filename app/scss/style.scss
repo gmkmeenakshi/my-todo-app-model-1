@@ -1,0 +1,80 @@
+@forward "globals";
+.bg-div{
+    background-color: var(--lightblue);    
+    width: 30%;
+    height: auto;
+    margin-top: 30px;
+    margin-inline: auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+}
+h1{
+    text-align: center;
+}
+#userinput{
+    width: 95%;
+    height: 40px;
+    font-size: var(--fs-small);
+    font-family: inherit;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    padding:6px 8px;
+    outline: none;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: var(--fs-small);
+    font-family: inherit;
+    color: var(--white);
+    background-color: var(--darkblue);
+    border: 1px solid var(--darkblue);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.tasks{
+    display: flex;      
+    margin-bottom: 8px;   
+    // border: 1px solid red;
+}
+.check-box{
+    width: 21px;
+    height: 20px;
+    margin-right: 8px;
+    margin-block: 8px;    
+    // outline: solid 1px red;
+}
+
+.label-del-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--lightgreen);
+    padding: 8px;
+    border-left: 4px solid var(--purple);
+    border-radius: 4px; 
+    text-transform: capitalize;
+    //border: 1px solid red;
+    
+}
+.label-style{
+    font-size: var(--fs-small);
+    margin: auto;
+    width:95%;
+    // border: 1px solid red;
+    
+}
+.delete-btn-div{
+    cursor: pointer;
+    // border: 1px solid red;
+
+}
+.checked{
+    text-decoration: line-through;
+}
+.save-clear-div{
+    display: flex;
+    justify-content: space-between;
+}

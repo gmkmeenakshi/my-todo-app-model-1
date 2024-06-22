@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white:hsl(0, 0%, 100%);
+  --lightblue:hsl(216, 71%, 78%);
+  --darkblue:hsl(220, 89%, 74%);
+  --lightgreen:hsl(180, 57%, 82%);
+  --purple:hsl(240, 82%, 75%);
+}
+
+:root {
+  --fs-small:1.0625rem;
+  --fs-large:2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-div {
+  background-color: var(--lightblue);
+  width: 30%;
+  height: auto;
+  margin-top: 30px;
+  margin-inline: auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#userinput {
+  width: 95%;
+  height: 40px;
+  font-size: var(--fs-small);
+  font-family: inherit;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 6px 8px;
+  outline: none;
+}
+
+.btn {
+  width: 60px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: var(--fs-small);
+  font-family: inherit;
+  color: var(--white);
+  background-color: var(--darkblue);
+  border: 1px solid var(--darkblue);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.check-box {
+  width: 21px;
+  height: 20px;
+  margin-right: 8px;
+  margin-block: 8px;
+}
+
+.label-del-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--lightgreen);
+  padding: 8px;
+  border-left: 4px solid var(--purple);
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.label-style {
+  font-size: var(--fs-small);
+  margin: auto;
+  width: 95%;
+}
+
+.delete-btn-div {
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.save-clear-div {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
